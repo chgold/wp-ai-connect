@@ -1,0 +1,6 @@
+# Exclude development files from releases
+tests/ export-ignore
+.gitattributes export-ignore
+.gitignore export-ignore
+.git/ export-ignore
+*.md export-ignore

@@ -1,0 +1,108 @@
+# Dependencies
+node_modules/
+bower_components/
+
+# Composer
+composer.phar
+
+# Environment & Configuration
+.env
+.env.local
+.env.*.local
+wp-config-local.php
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+error_log
+debug.log
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.buildpath
+.phpintel/
+nbproject/
+
+# Build & Distribution
+/dist/
+/build/
+*.zip
+*.tar.gz
+*.tgz
+
+# WordPress Core (if accidentally copied)
+/wordpress/
+/wp-admin/
+/wp-includes/
+wp-*.php
+xmlrpc.php
+license.txt
+readme.html
+
+# WordPress Uploads & Cache
+/uploads/
+/cache/
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/backup-db/
+/wp-content/backups/
+/wp-content/blogs.dir/
+/wp-content/upgrade/
+
+# Testing
+/tests/tmp/
+/tests/logs/
+phpunit.xml
+.phpunit.result.cache
+coverage/
+/coverage/
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*~
+
+# Package Manager Locks (keep composer.lock ignored for plugins)
+package-lock.json
+yarn.lock
+
+# Security
+*.pem
+*.key
+*.crt
+*.cert
+secrets.json
+credentials.json
+
+# Documentation Build
+/docs/_build/
+/docs/.doctrees/
+
+# Misc
+.sass-cache/
+*.css.map
+*.js.map
+.htaccess.sample
+sitemap.xml
+sitemap.xml.gz
