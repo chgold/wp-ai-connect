@@ -1,0 +1,25 @@
+# WordPress
+.wordpress-org/
+
+# Composer
+/vendor/
+composer.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+debug.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
